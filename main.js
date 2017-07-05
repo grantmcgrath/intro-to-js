@@ -1,7 +1,3 @@
-/* To the poor soul who is going to try and grade this, I am sooo sorry.
-The instructions make little to no sense about what is actully being looked for.
-There are multiple times that the x variable is defined but does not work together. I answered the questions based on the last time x was defined. I commented out all other code. -Grant*/
-
 // Answer the following questions in this file using comments without running the code
 
 // 1.
@@ -104,7 +100,7 @@ console.log(" ");
 // For questions 11 - 19: List which boolean value will be stored in each variable. (Remember: `==` does not check data type)
 
 // 11.
-//let x = (false == 0);
+var x = (false == 0);
 // A.
 //console.log("true");
 
@@ -172,7 +168,7 @@ let thirsty = true;
 // For questions 21 - 29 list which statement will be logged.
 
 // 21.
-let x;
+var x;
 
 if(x){
 	console.log("True!");
@@ -193,7 +189,7 @@ if(""){
 
 // 23.
 // this expression will set x to NaN
-let x = 1 * undefined;
+var x = 1 * undefined;
 
 if(x){
 	console.log("True!");
